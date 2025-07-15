@@ -13,7 +13,7 @@ bool isPossible(vector<int> arr , int n , int m , int mid){
             if(studentCount > m || arr[i] > mid){
                 return false;
             }
-            
+            pageSum = arr[i];
         }
     }
     return true;
