@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 int main(){
-    string str1 = "car";
+    string str1 = "car"; //given that both strings have same length. if not then first check it and then do the further process.
     string str2 = "rat";
     int arr1[26]={0};
     bool validAnagram = true;
